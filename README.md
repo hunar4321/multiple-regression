@@ -3,6 +3,11 @@ This is a simple intivitve operation to estimate least squares for multiple vari
 
 https://stats.stackexchange.com/questions/46185/question-on-how-to-normalize-regression-coefficient/46508#46508
 
+Example time series prediction:
+
+
+![](image.JPG)
+
 
 
 
