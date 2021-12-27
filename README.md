@@ -6,7 +6,7 @@ https://stats.stackexchange.com/questions/46185/question-on-how-to-normalize-reg
 Example time series prediction:
 
 
-![](image (2).JPG)
+![](signal.JPG)
 
 
 
