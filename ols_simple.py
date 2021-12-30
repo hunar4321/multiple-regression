@@ -1,5 +1,6 @@
-# @Author: Hunar Ahmad Abdulrahman
-
+"""
+Author: Hunar Ahmad @ Brainxyz
+"""
 import numpy as np
 import matplotlib.pylab as plt
 import time
