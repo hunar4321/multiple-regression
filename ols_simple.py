@@ -14,7 +14,7 @@ y = np.dot(bt, x)
 ## adding some noise
 y = y+np.random.randn(1, lab)*0
 
-print("solving the proble using pinv and the existing libraries")
+print("solving using pinv")
 t = time.time()
 pv = np.linalg.pinv(x) 
 Wm = y @ pv
