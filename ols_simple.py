@@ -1,3 +1,5 @@
+# @Author: Hunar Ahmad Abdulrahman
+
 import numpy as np
 import matplotlib.pylab as plt
 import time
