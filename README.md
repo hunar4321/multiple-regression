@@ -1,4 +1,4 @@
-# Least Squares by regressing recursively
+# Recursive Least Squares by predicting errors
 This is a simple intivitve operation to estimate least squares for multiple variables 
 
 Associated video tutorial is here:
