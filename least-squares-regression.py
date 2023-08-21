@@ -13,13 +13,15 @@ ys = ws @ xs
 x = xs.copy()  #make copies of xs & ys before modifying them 
 y = ys.copy()
 wy = np.zeros(M)
+sx = np.zeros(M)
 for i in range(M):
+    sx[i] = np.sum(x[i]**2)
     for j in range(i+1, M):
-        wx = np.sum(x[i] * x[j]) / np.sum(x[i]**2)
+        wx = np.sum(x[i] * x[j]) /sx[i]
         x[j] -= wx * x[i]
         
 for i in range(M-1,-1, -1):
-    wy[i] = np.sum(y * x[i]) / np.sum(x[i]**2)
+    wy[i] = np.sum(y * x[i]) / sx[i]
     y -= wy[i] * xs[i]
     
 yh = wy @ xs #prediction
