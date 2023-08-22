@@ -1,3 +1,6 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/hunar4321/multiple-regression)
+![GitHub](https://img.shields.io/github/license/hunar4321/multiple-regression)
+
 # Recursive Least Squares by predicting errors
 This is a simple intivitve operation to estimate least squares for multiple variables 
 
